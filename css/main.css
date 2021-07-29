@@ -1,0 +1,64 @@
+html {
+    font-size: 16px;
+    color: #666455;
+}
+
+#title {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#title-description {
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+    max-width: 95%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+}
+
+#tribute-info h2 {
+    text-transform: uppercase;
+}
+
+ul li {
+    list-style: circle;
+    font-size: 1.25rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    clear:both;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .half-width {
+        width: 50%;
+        float: left;
+    }
+
+}
